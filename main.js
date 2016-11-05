@@ -84,7 +84,7 @@
 	}
 
 	// add an onclick event to each button and disable them initially
-	for (var i = 0; i < userChoices.length; i++) {
+	for (var i = 0 ,max= userChoices.length; i < max; i++) {
 		userChoices[i].onclick = selection;
 		userChoices[i].disabled = true;
 	}
